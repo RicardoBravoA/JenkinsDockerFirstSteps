@@ -1,0 +1,23 @@
+Started by user [8mha:////4PhHPfHiYOnnTusgMWfY8H+202I/2UqNuj+MyyxDIQzJAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-db-aws
+[SSH] script:
+AWS_SECRET_ACCESS_KEY=**********
+DB_NAME="testdb"
+DB_PWD=**********
+AWS_ACCESS_KEY_ID=**********
+PWD="/"
+DB_HOST="db_host"
+BUCKET_NAME="jenkins-mysql-test-rba"
+
+/tmp/s3.sh $DB_HOST $DB_PWD $DB_NAME $BUCKET_NAME $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY
+
+[SSH] executing...
+/tmp/s3.sh: line 11:  : command not found
+/tmp/s3.sh: line 12:  : command not found
+Completed 1.8 KiB/1.8 KiB (1.2 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-21-39-17.sql to s3://jenkins-mysql-test-rba/db-21-39-17.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

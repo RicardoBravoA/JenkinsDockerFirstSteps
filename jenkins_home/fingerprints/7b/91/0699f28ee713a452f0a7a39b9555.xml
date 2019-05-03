@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-05-02 21:39:16.928 UTC</timestamp>
+  <md5sum>7b910699f28ee713a452f0a7a39b9555</md5sum>
+  <fileName>Credential id=AWS_SECRET_ACCESS_KEY name=AWS_SECRET_ACCESS_KEY</fileName>
+  <usages>
+    <entry>
+      <string>backup-db-aws</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
